@@ -314,15 +314,15 @@
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "44f8aa0d9d6d48c9a0e7440b24e4b1f6",
     "m_Title": "Info",
-    "m_Content": "NormalMask传入的纹理仅使用了法线的RG通道，不是作为Normal贴图来使用的，因此，该纹理贴图的设置不是Normal类型，而是Default，只不过其sRGB不会勾选，把该纹理贴图作为线性图使用。",
+    "m_Content": "NormalMask传入的纹理仅使用了法线的RG通道，不是作为Normal贴图来使用的，因此，该纹理贴图的设置不是Normal类型，而是Default，只不过其sRGB不会勾选，把该纹理贴图作为线性图使用。\n\n由于纹理贴图的数据是从0~1，而法线贴图保存的信息是-1~1，因此需要使用该算法进行映射\n。",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
         "x": -956.0,
         "y": -283.0,
-        "width": 200.0,
-        "height": 160.0
+        "width": 365.2174072265625,
+        "height": 173.9130401611328
     },
     "m_Group": {
         "m_Id": ""
