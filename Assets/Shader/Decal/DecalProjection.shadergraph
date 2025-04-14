@@ -103,6 +103,8 @@
             "m_Id": "90ae9fc9bdc14f24ba029eed78ef77a3"
         }
     ],
+    "m_LoopStartNodes": [],
+    "m_LoopEndNodes": [],
     "m_LocalVariables": [],
     "m_RegisterIDs": [],
     "m_GroupDatas": [],
@@ -522,6 +524,7 @@
         "m_Id": ""
     },
     "m_SubDatas": [],
+    "m_MasterNodeShaderStats": "Vertex Shader Stats: \n   - ConstantBuffer Count: 4 \n   - NumSamplers: 0 \n   - Resources Count: 0 \n   - Attributes Used: Position, Normal, Tangent, TexCoord0 \n\nFragment Shader Stats: \n   - ConstantBuffer Count: 5 \n   - NumSamplers: 1 \n   - Resources Count: 7 \n\nTotal Samplers: 1/16 \nTexture Sample Count: 0 \nCustom Interpolator Count: 0",
     "m_ActiveTargets": [
         {
             "m_Id": "b8ebf04570fe419ab38a80abe7c3eaae"
