@@ -34,6 +34,8 @@
             "m_Id": "9a675043b8b241ae85ea5a4d6131a0eb"
         }
     ],
+    "m_LoopStartNodes": [],
+    "m_LoopEndNodes": [],
     "m_LocalVariables": [],
     "m_RegisterIDs": [],
     "m_GroupDatas": [],
@@ -156,6 +158,7 @@
         "m_Id": "54d1930930b04ca0921258df956719c3"
     },
     "m_SubDatas": [],
+    "m_MasterNodeShaderStats": "Vertex Shader Stats: \n   - ConstantBuffer Count: 2 \n   - NumSamplers: 0 \n   - Resources Count: 0 \n   - Attributes Used: Position \n\nFragment Shader Stats: \n   - ConstantBuffer Count: 1 \n   - NumSamplers: 0 \n   - Resources Count: 0 \n\nTotal Samplers: 0/16 \nTexture Sample Count: 0 \nCustom Interpolator Count: 0",
     "m_ActiveTargets": []
 }
 
@@ -303,10 +306,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -672.0,
-            "y": -66.0,
+            "x": -689.0,
+            "y": -66.00000762939453,
             "width": 100.0,
-            "height": 34.0
+            "height": 34.000022888183597
         }
     },
     "m_Slots": [
