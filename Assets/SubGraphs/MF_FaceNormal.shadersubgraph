@@ -46,6 +46,8 @@
             "m_Id": "e24342ef7f3d40b4952e69427935f78a"
         }
     ],
+    "m_LoopStartNodes": [],
+    "m_LoopEndNodes": [],
     "m_LocalVariables": [],
     "m_RegisterIDs": [],
     "m_GroupDatas": [
@@ -273,6 +275,7 @@
         "m_Id": "2c18587ca2334bacb08aee69910332d3"
     },
     "m_SubDatas": [],
+    "m_MasterNodeShaderStats": "Vertex Shader Stats: \n   - ConstantBuffer Count: 2 \n   - NumSamplers: 0 \n   - Resources Count: 0 \n   - Attributes Used: Position, Normal, Tangent \n\nFragment Shader Stats: \n   - ConstantBuffer Count: 2 \n   - NumSamplers: 0 \n   - Resources Count: 0 \n\nTotal Samplers: 0/16 \nTexture Sample Count: 0 \nCustom Interpolator Count: 0",
     "m_ActiveTargets": []
 }
 
@@ -367,7 +370,7 @@
     ],
     "synonyms": [],
     "m_Precision": 0,
-    "m_PreviewExpanded": false,
+    "m_PreviewExpanded": true,
     "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
@@ -382,9 +385,10 @@
     "m_ObjectId": "128e68a56c8e4d478e232673c82dd0c2",
     "m_Title": "Calculate Face Normals(计算面法线)",
     "m_Position": {
-        "x": -1537.0,
-        "y": 2.0
-    }
+        "x": -1751.0,
+        "y": -1.0
+    },
+    "m_LoopGroup": false
 }
 
 {
@@ -557,9 +561,10 @@
     "m_ObjectId": "3d59803f09874d558e9933466c5bed26",
     "m_Title": "Transform to the selected space",
     "m_Position": {
-        "x": -916.0000610351563,
+        "x": -904.0,
         "y": -252.0
-    }
+    },
+    "m_LoopGroup": false
 }
 
 {
@@ -853,9 +858,9 @@
         "m_Position": {
             "serializedVersion": "2",
             "x": -512.0,
-            "y": 48.0,
-            "width": 166.0,
-            "height": 166.0
+            "y": 48.0000114440918,
+            "width": 166.00006103515626,
+            "height": 165.99998474121095
         }
     },
     "m_Slots": [
@@ -1191,13 +1196,13 @@
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -1556.0,
-        "y": 287.0,
-        "width": 584.0999755859375,
-        "height": 98.7825927734375
+        "x": -1726.0,
+        "y": 273.0,
+        "width": 584.0,
+        "height": 100.0
     },
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "128e68a56c8e4d478e232673c82dd0c2"
     }
 }
 

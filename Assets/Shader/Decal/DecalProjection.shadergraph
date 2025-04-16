@@ -108,7 +108,11 @@
     "m_LocalVariables": [],
     "m_RegisterIDs": [],
     "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "f31b1e4ea58f4a92bc61633a4609619a"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -2566,6 +2570,26 @@
         "z": 0.0
     },
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "f31b1e4ea58f4a92bc61633a4609619a",
+    "m_Title": "基础贴花shader",
+    "m_Content": "使用的是世界空间下的三面映射UV，这样避免了不在贴花方向轴上的拉伸问题。",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1101.0,
+        "y": -111.0,
+        "width": 382.0,
+        "height": 143.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {

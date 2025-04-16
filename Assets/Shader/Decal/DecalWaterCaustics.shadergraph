@@ -1192,7 +1192,7 @@
     "m_Title": "Caustic Sample 1",
     "m_Position": {
         "x": -1752.0,
-        "y": -256.0
+        "y": -256.0000305175781
     },
     "m_LoopGroup": false
 }
@@ -1825,7 +1825,7 @@
     "m_ObjectId": "1e90706cb7ec45dca797c206c8fa3379",
     "m_Title": "Distortion Texture Sample",
     "m_Position": {
-        "x": -3626.000244140625,
+        "x": -3626.0,
         "y": 563.9998779296875
     },
     "m_LoopGroup": false
@@ -4366,8 +4366,8 @@
     "m_ObjectId": "7484b59d76a54abfabc6ebb5c7289c0d",
     "m_Title": "Choose RenderPipline",
     "m_Position": {
-        "x": 348.9998474121094,
-        "y": 4.999992370605469
+        "x": 348.9999694824219,
+        "y": 4.999908447265625
     },
     "m_LoopGroup": false
 }
@@ -4896,8 +4896,8 @@
     "m_ObjectId": "92f23c1b7d6c4dcf95ec2644001ef8fd",
     "m_Title": "Tri  UV",
     "m_Position": {
-        "x": -3625.999755859375,
-        "y": -222.0
+        "x": -3626.0,
+        "y": -222.00006103515626
     },
     "m_LoopGroup": false
 }
@@ -6909,7 +6909,7 @@
     "m_Title": "Caustic Sample 2",
     "m_Position": {
         "x": -1749.0001220703125,
-        "y": 181.0000762939453
+        "y": 180.99993896484376
     },
     "m_LoopGroup": false
 }
