@@ -806,7 +806,7 @@
     "m_Title": "Create Normal from the Detail Texture Data",
     "m_Position": {
         "x": -2806.0,
-        "y": -238.99996948242188
+        "y": -239.0
     },
     "m_LoopGroup": false
 }
@@ -818,7 +818,7 @@
     "m_Title": "Macro Detail Normal Data Texture",
     "m_Position": {
         "x": -3828.0,
-        "y": -893.9998779296875
+        "y": -894.0000610351563
     },
     "m_LoopGroup": false
 }
