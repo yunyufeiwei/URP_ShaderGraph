@@ -2302,7 +2302,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -2655,7 +2655,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -2710,7 +2710,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -2903,7 +2903,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -3028,7 +3028,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -3088,7 +3088,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -3433,7 +3433,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -3516,7 +3516,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -4006,7 +4006,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -4198,7 +4198,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -4237,7 +4237,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -4359,7 +4359,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -4556,7 +4556,7 @@
     "m_RefNameGeneratedByDisplayName": "Use Mask Map",
     "m_DefaultReferenceName": "_USE_MASK_MAP",
     "m_OverrideReferenceName": "_METALLICSPECGLOSSMAP",
-    "m_GeneratePropertyBlock": true,
+    "m_GeneratePropertyBlock": false,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
     "m_DismissedVersion": 0,
@@ -4601,7 +4601,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -4662,7 +4662,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -4796,7 +4796,7 @@
     "m_CustomSlotLabel": "",
     "m_DismissedVersion": 0,
     "m_Precision": 0,
-    "overrideHLSLDeclaration": true,
+    "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 2,
     "m_Hidden": false,
     "m_Priority": 10,
@@ -4835,7 +4835,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -5133,7 +5133,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -5317,7 +5317,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -5357,7 +5357,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -5608,7 +5608,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -5685,8 +5685,8 @@
     "m_CustomSlotLabel": "",
     "m_DismissedVersion": 0,
     "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
+    "overrideHLSLDeclaration": true,
+    "hlslDeclarationOverride": 2,
     "m_Hidden": false,
     "m_Priority": 10,
     "m_Value": {
@@ -5696,7 +5696,7 @@
     "isMainTexture": false,
     "useTilingAndOffset": true,
     "m_Modifiable": true,
-    "m_DefaultType": 0
+    "m_DefaultType": 4
 }
 
 {
@@ -5725,7 +5725,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -5808,7 +5808,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -5916,7 +5916,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -6002,7 +6002,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -6223,7 +6223,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -6288,7 +6288,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -6733,7 +6733,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -6795,7 +6795,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -6907,7 +6907,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -7096,7 +7096,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -7303,7 +7303,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -7390,7 +7390,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -7532,7 +7532,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -7693,7 +7693,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -7735,7 +7735,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -7891,7 +7891,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -8035,7 +8035,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -8105,7 +8105,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -8296,7 +8296,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -8633,7 +8633,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -8683,7 +8683,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -8717,7 +8717,7 @@
         "m_Guid": ""
     },
     "isMainTexture": false,
-    "useTilingAndOffset": true,
+    "useTilingAndOffset": false,
     "m_Modifiable": true,
     "m_DefaultType": 0
 }
@@ -8860,7 +8860,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -8881,7 +8881,15 @@
     "m_ClearCoat": false,
     "m_BlendModePreserveSpecular": true,
     "m_RemovedVariants": [],
-    "m_RemovedPasses": [],
+    "m_RemovedPasses": [
+        "Meta",
+        "Scene Selection",
+        "Scene Picking",
+        "Universal 2D",
+        "GBuffer",
+        "Depth Only",
+        "Depth Normals"
+    ],
     "keywordsStatus": [
         true,
         true,
@@ -8905,17 +8913,17 @@
     "passStatus": [
         true,
         true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
     ],
     "surfaceOptionsFoldout": true,
-    "passesFoldout": true,
-    "variantsFoldout": true
+    "passesFoldout": false,
+    "variantsFoldout": false
 }
 
 {
@@ -9015,7 +9023,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -9079,7 +9087,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -9328,7 +9336,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -9462,7 +9470,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -9632,7 +9640,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -9659,7 +9667,7 @@
     "m_ObjectId": "b097a44facfe4f10afdfccede3d5ab3b",
     "m_Title": "Detail Map",
     "m_Position": {
-        "x": -1018.0,
+        "x": -1018.0000610351563,
         "y": 2360.0
     },
     "m_LoopGroup": false
@@ -9739,7 +9747,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -9824,7 +9832,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -9897,7 +9905,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -10034,7 +10042,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -10090,7 +10098,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -10252,7 +10260,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -10327,7 +10335,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -10443,7 +10451,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -10486,7 +10494,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -10696,7 +10704,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -10752,7 +10760,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -10819,8 +10827,8 @@
     "m_CustomSlotLabel": "",
     "m_DismissedVersion": 0,
     "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
+    "overrideHLSLDeclaration": true,
+    "hlslDeclarationOverride": 2,
     "m_Hidden": false,
     "m_Priority": 10,
     "m_Value": {
@@ -10828,9 +10836,9 @@
         "m_Guid": ""
     },
     "isMainTexture": false,
-    "useTilingAndOffset": true,
+    "useTilingAndOffset": false,
     "m_Modifiable": true,
-    "m_DefaultType": 0
+    "m_DefaultType": 3
 }
 
 {
@@ -10929,7 +10937,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -11043,7 +11051,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -11082,7 +11090,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -11152,7 +11160,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -11223,7 +11231,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -11313,7 +11321,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -11411,7 +11419,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -11485,7 +11493,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -11677,7 +11685,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -11720,7 +11728,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -11764,7 +11772,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -11821,7 +11829,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -11887,7 +11895,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -12016,7 +12024,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -12249,7 +12257,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -12417,7 +12425,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -12483,7 +12491,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -12675,7 +12683,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -12740,7 +12748,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -12925,7 +12933,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -12980,7 +12988,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -13008,7 +13016,7 @@
     "m_CustomSlotLabel": "",
     "m_DismissedVersion": 0,
     "m_Precision": 0,
-    "overrideHLSLDeclaration": true,
+    "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 2,
     "m_Hidden": false,
     "m_Priority": 10,
@@ -13047,7 +13055,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -13145,7 +13153,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -13226,7 +13234,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -13519,7 +13527,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -13581,7 +13589,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -13674,7 +13682,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -13740,7 +13748,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -13831,7 +13839,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -14032,7 +14040,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -14151,7 +14159,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -14277,7 +14285,7 @@
     ],
     "m_Precision": 0,
     "m_PreviewExpanded": false,
-    "m_NodeLOD": 2,
+    "m_NodeLOD": 0,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
