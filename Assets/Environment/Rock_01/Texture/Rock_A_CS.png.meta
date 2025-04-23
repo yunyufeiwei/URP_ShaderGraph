@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: Xigf5ij/U30BhY2CkFWxxSXU6JzWOUEU/SQ1iNrv/mJ08ZPVN3u72sA=
+guid: Cy8W4SqoAXmLdxq80KioX7kKwT2TV+9FlS0DAy8iFQi1jPcokYoE0wY=
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -100,6 +100,20 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
+    maxTextureSize: 2048
+    maxPlaceholderSize: 32
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WeixinMiniGame
     maxTextureSize: 2048
     maxPlaceholderSize: 32
     resizeAlgorithm: 0

@@ -805,7 +805,7 @@
     "m_ObjectId": "0936658e9c5d424aa6cc03f51fcdc884",
     "m_Title": "Create Normal from the Detail Texture Data",
     "m_Position": {
-        "x": -2806.0,
+        "x": -2805.999755859375,
         "y": -239.0
     },
     "m_LoopGroup": false
@@ -817,8 +817,8 @@
     "m_ObjectId": "0d4e158bbd15475aa78abab614ed401a",
     "m_Title": "Macro Detail Normal Data Texture",
     "m_Position": {
-        "x": -3828.0,
-        "y": -894.0000610351563
+        "x": -3827.999755859375,
+        "y": -893.9999389648438
     },
     "m_LoopGroup": false
 }
@@ -4141,8 +4141,8 @@
     "m_ObjectId": "fa6c928e95ae48eeb467b320b1ea5aa7",
     "m_Title": "顶部使用基础法线，侧面叠加宏观的细节法线",
     "m_Position": {
-        "x": -3046.0,
-        "y": 175.0
+        "x": -3045.999755859375,
+        "y": 174.9998779296875
     },
     "m_LoopGroup": false
 }
