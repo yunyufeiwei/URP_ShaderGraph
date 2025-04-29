@@ -405,10 +405,10 @@
     "m_Name": "",
     "m_ChildObjectList": [
         {
-            "m_Id": "e8868ee0bf1b418a9022b7918d232d05"
+            "m_Id": "4c311469b1704d7685e167d990cb808d"
         },
         {
-            "m_Id": "4c311469b1704d7685e167d990cb808d"
+            "m_Id": "e8868ee0bf1b418a9022b7918d232d05"
         }
     ]
 }
@@ -612,8 +612,8 @@
     "m_ObjectId": "5e0ae2b574994c05a5c2da7aa7847385",
     "m_Title": "Far Black/Near White",
     "m_Position": {
-        "x": -804.9999389648438,
-        "y": -196.99996948242188
+        "x": -805.0,
+        "y": -197.0
     },
     "m_LoopGroup": false
 }

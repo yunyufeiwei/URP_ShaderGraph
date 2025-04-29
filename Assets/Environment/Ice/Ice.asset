@@ -800,13 +800,13 @@ MonoBehaviour:
     m_Value: 1
   focusDistance:
     m_OverrideState: 1
-    m_Value: 8
+    m_Value: 1.25
   aperture:
     m_OverrideState: 1
-    m_Value: 14
+    m_Value: 14.5
   focalLength:
     m_OverrideState: 1
-    m_Value: 65
+    m_Value: 80
   bladeCount:
     m_OverrideState: 1
     m_Value: 5
@@ -956,7 +956,7 @@ MonoBehaviour:
     m_Value: 0
   blueOutBlueIn:
     m_OverrideState: 1
-    m_Value: 100
+    m_Value: 160
 --- !u!114 &9122958982931076880
 MonoBehaviour:
   m_ObjectHideFlags: 3
