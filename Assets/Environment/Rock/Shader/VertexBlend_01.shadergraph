@@ -893,7 +893,7 @@
         "m_Id": ""
     },
     "m_SubDatas": [],
-    "m_MasterNodeShaderStats": "Vertex Shader Stats: \n   - ConstantBuffer Count: 3 \n   - NumSamplers: 0 \n   - Resources Count: 0 \n   - Attributes Used: Position, Normal, Tangent, TexCoord0 \n\nFragment Shader Stats: \n   - ConstantBuffer Count: 5 \n   - NumSamplers: 2 \n   - Resources Count: 7 \n\nTotal Samplers: 2/16 \nTexture Sample Count: 2 \nCustom Interpolator Count: 0",
+    "m_MasterNodeShaderStats": "Vertex Shader Stats: \n   - ConstantBuffer Count: 2 \n   - NumSamplers: 0 \n   - Resources Count: 0 \n   - Attributes Used: Position, Normal, Tangent, TexCoord0 \n\nFragment Shader Stats: \n   - ConstantBuffer Count: 5 \n   - NumSamplers: 2 \n   - Resources Count: 7 \n\nTotal Samplers: 2/16 \nTexture Sample Count: 2 \nCustom Interpolator Count: 0",
     "m_ActiveTargets": [
         {
             "m_Id": "1a40ef9b468f431d9a08218b1aae2ee4"
@@ -2789,8 +2789,8 @@
     "m_ObjectId": "55f198e5589f4e6a82840065785d4b07",
     "m_Title": "采样纹理贴图：颜色贴图+法线贴图",
     "m_Position": {
-        "x": -3468.0,
-        "y": -255.0
+        "x": -3468.000244140625,
+        "y": -254.99998474121095
     },
     "m_LoopGroup": false
 }
@@ -2825,7 +2825,7 @@
     "m_ObjectId": "57ee4a57ebcd438b8ffe8fbaaa2a8f6f",
     "m_Title": "通过距离决定是否需要使用宏观细节法线，近的时候输出白色，远离的时候输出黑色",
     "m_Position": {
-        "x": -2306.0,
+        "x": -2306.000244140625,
         "y": 2024.0
     },
     "m_LoopGroup": false
@@ -3181,8 +3181,8 @@
     "m_ObjectId": "65daad6d127343debbe8ae99c03646e2",
     "m_Title": "Macro Detail Normal Data Texture",
     "m_Position": {
-        "x": -3439.0,
-        "y": 1273.0
+        "x": -3439.000244140625,
+        "y": 1273.0001220703125
     },
     "m_LoopGroup": false
 }
@@ -5131,8 +5131,8 @@
     "m_ObjectId": "c5079306f4a6411b8ea0d4ab48ee5cd6",
     "m_Title": "Object Scale",
     "m_Position": {
-        "x": -4253.0,
-        "y": 781.0
+        "x": -4253.00048828125,
+        "y": 780.9999389648438
     },
     "m_LoopGroup": false
 }
