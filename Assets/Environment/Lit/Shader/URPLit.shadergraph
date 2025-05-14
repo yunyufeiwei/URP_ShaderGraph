@@ -4815,8 +4815,8 @@
     "m_ObjectId": "3e40e21dbce84566ad1c48a7d99dae7d",
     "m_Title": "Toggle Workflows(金属流还是高光流)",
     "m_Position": {
-        "x": 70.00028228759766,
-        "y": 692.0000610351563
+        "x": 70.0,
+        "y": 692.0
     },
     "m_LoopGroup": false
 }
@@ -6239,8 +6239,8 @@
     "m_ObjectId": "5e32fac92bb943e180cea56d1b85eaea",
     "m_Title": "Specular",
     "m_Position": {
-        "x": -1024.0001220703125,
-        "y": 695.0000610351563
+        "x": -1024.0,
+        "y": 695.0
     },
     "m_LoopGroup": false
 }
@@ -6903,7 +6903,7 @@
     "m_Title": "Emisson",
     "m_Position": {
         "x": -1018.0,
-        "y": 1930.000244140625
+        "y": 1930.0
     },
     "m_LoopGroup": false
 }
@@ -6948,7 +6948,7 @@
     "m_ObjectId": "6f44f3229074490b8e057d8776c20cb9",
     "m_Title": "Alpha",
     "m_Position": {
-        "x": 106.000244140625,
+        "x": 106.0,
         "y": -43.0
     },
     "m_LoopGroup": false
@@ -7202,8 +7202,8 @@
     "m_ObjectId": "72bbccbd1c1546d496cbb355412ce54e",
     "m_Title": "Smoothness",
     "m_Position": {
-        "x": 601.0003051757813,
-        "y": 693.0000610351563
+        "x": 601.0,
+        "y": 693.0
     },
     "m_LoopGroup": false
 }
@@ -8468,8 +8468,8 @@
     "m_ObjectId": "904cd0ca2fa94115b0e20453154bd45f",
     "m_Title": "Occlusion",
     "m_Position": {
-        "x": -1023.0001220703125,
-        "y": 1500.9998779296875
+        "x": -1023.0,
+        "y": 1501.0
     },
     "m_LoopGroup": false
 }
@@ -9719,7 +9719,7 @@
     "m_Title": "Detail Map",
     "m_Position": {
         "x": -1018.0,
-        "y": 2360.000244140625
+        "y": 2360.0
     },
     "m_LoopGroup": false
 }
@@ -11412,8 +11412,8 @@
     "m_ObjectId": "c9dd787a6a8041cdb37065db08da841d",
     "m_Title": "Metallic",
     "m_Position": {
-        "x": -1024.0001220703125,
-        "y": 279.0000305175781
+        "x": -1024.0,
+        "y": 279.0
     },
     "m_LoopGroup": false
 }
@@ -12205,8 +12205,8 @@
     "m_ObjectId": "d78ffc01efee44b283015fefbea11270",
     "m_Title": "Normal",
     "m_Position": {
-        "x": -1024.0001220703125,
-        "y": 1094.9998779296875
+        "x": -1024.0,
+        "y": 1095.0
     },
     "m_LoopGroup": false
 }
@@ -14348,7 +14348,7 @@
     "m_Title": "BaseColor",
     "m_Position": {
         "x": -771.0,
-        "y": -154.00001525878907
+        "y": -154.0
     },
     "m_LoopGroup": false
 }

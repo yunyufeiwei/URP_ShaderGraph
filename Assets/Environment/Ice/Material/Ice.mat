@@ -145,7 +145,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _Parallax_Amplitude_1: 450
-    - _Parallax_Amplitude_2: 82.8
+    - _Parallax_Amplitude_2: 73.5
     - _Parallax_Amplitude_3: 80
     - _QueueControl: 0
     - _QueueOffset: 0

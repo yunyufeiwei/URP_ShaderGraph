@@ -10,4 +10,9 @@
 需要特别注意的是两个向量的叉乘顺序。*
 
 ![焦散贴花](ShootImage/DecalCaustics.gif)
+
  
+![冰面](ShootImage/Ice.png)
+![草](ShootImage/Grass.gif)
+![植被](ShootImage/Plants.gif)
+![水面](ShootImage/Water.png)
