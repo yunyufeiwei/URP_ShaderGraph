@@ -12,7 +12,12 @@
 ![焦散贴花](ShootImage/DecalCaustics.gif)
 
  
-![冰面](ShootImage/Ice.png)
-![草](ShootImage/Grass.gif)
-![植被](ShootImage/Plants.gif)
-![水面](ShootImage/Water.png)
+![冰面](ShootImage/Ice.png)  
+
+![草](ShootImage/Grass.gif)  
+
+![植被](ShootImage/Plants.gif)  
+
+![水面](ShootImage/Water.png)  
+
+![Rain Snow](ShootImage/RainAndSnow.png)
