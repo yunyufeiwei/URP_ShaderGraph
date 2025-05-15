@@ -37,6 +37,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _MFSnow_21c6706ad0ef49a3bce5e6db46ca65a9_SnowNCSTexture_981326219_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 621249f5f67e0984b83021bdf615662c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_00262cd0f3cc4dbebdb0a52cb9103118_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: b356831ef4f363d48989d117c6ea79e3, type: 3}
         m_Scale: {x: 1, y: 1}
