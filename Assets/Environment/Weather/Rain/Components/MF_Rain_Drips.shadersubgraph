@@ -1793,7 +1793,7 @@
     "m_Group": {
         "m_Id": ""
     },
-    "m_Name": "UVTriplanar",
+    "m_Name": "MF_UVTriplanar",
     "m_DrawState": {
         "m_Expanded": false,
         "m_Position": {

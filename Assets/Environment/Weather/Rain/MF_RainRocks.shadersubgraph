@@ -3477,7 +3477,7 @@
     "m_Title": "Wetness Mask",
     "m_Position": {
         "x": -198.0,
-        "y": 160.00018310546876
+        "y": 160.0
     },
     "m_LoopGroup": false
 }
