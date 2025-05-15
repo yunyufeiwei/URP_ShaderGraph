@@ -1,0 +1,10 @@
+{
+    "name": "GebilaowxjOutlook.Snakeassettool.Editor",
+    "references": [
+      "GebilaowxjOutlook.Snakeassettool"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

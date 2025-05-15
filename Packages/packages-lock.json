@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.gebilaowxj_outlook.snakeassettool": {
+      "version": "file:com.snake.snakeassettool",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.burst": {
       "version": "1.8.18",
       "depth": 1,

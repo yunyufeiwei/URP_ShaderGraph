@@ -1,0 +1,14 @@
+{
+    "name": "GebilaowxjOutlook.Snakeassettool.Editor.Tests",
+    "references": [
+        "GebilaowxjOutlook.Snakeassettool.Editor",
+        "GebilaowxjOutlook.Snakeassettool"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

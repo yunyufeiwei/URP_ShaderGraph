@@ -1,0 +1,1443 @@
+{
+    "StartPath": "",
+    "IgnorePath": [
+        "Content/Temp/",
+        "Content/Generated/",
+        "Content/StarterContent/",
+        "Content/Developers/",
+        "Content/Collections/",
+        "Content/Art/Wwise/",
+        "/Saved/Autosaves/Game/",
+        "Content/__ExternalActors__/",
+        "Content/__ExternalObjects__/",
+        "Content/HoudiniEngine/",
+        "Content/Maps/Templates/",
+        "Content/Program/ToBeDeleted/",
+        "Content/Program",
+        "Content/L10N"
+    ],
+    "CacheVersion": 1,
+    "Types": [
+        {
+            "Type" : "StaticMesh",
+            "Name" : { "Type" : "Regex", "Pattern" : "^SM_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^SM_E_\\S+", "DirRule" : "^Content/Art/Effect/Mesh/\\S*"},
+                { "NameMatch" : "^SM_R_\\S+", "DirRule" : "^Content/Art/Role/\\S*(/Mesh/)\\S*"},
+                { "NameMatch" : "^SM_H_\\S+", "DirRule" : "^Content/Art/Hero/\\S*(/Mesh/)\\S*"},
+                { "NameMatch" : "^SM_N_\\S+", "DirRule" : "^Content/Art/NPC/\\S*(/Mesh/)\\S*"},
+                { "NameMatch" : "^SM_M_\\S+", "DirRule" : "^Content/Art/Monster/\\S*(/Mesh/)\\S*"},
+                { "NameMatch" : "^SM_B_\\S+", "DirRule" : "^Content/Art/Boss/\\S*(/Mesh/)\\S*"},
+                { "NameMatch" : "^SM_PET_\\S+", "DirRule" : "^Content/Art/Pet/\\S*(/Mesh/)\\S*"},
+                { "NameMatch" : "^SM_L_\\S+", "DirRule" : "^Content/Art/Environment/\\S*"},
+                { "NameMatch" : "^SM_RD_\\S+", "DirRule" : "^Content/Art/Material/Mesh/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "SkeletalMesh",
+            "Name" : { "Type" : "Regex", "Pattern" : "^SKM_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^SKM_E_\\S+", "DirRule" : "^Content/Art/Effect/Mesh/\\S*"},
+                { "NameMatch" : "^SKM_R_\\S+", "DirRule" : "^Content/Art/Role/\\S*(/Mesh/)\\S*"},
+                { "NameMatch" : "^SKM_H_\\S+", "DirRule" : "^Content/Art/Hero/\\S*(/Mesh/)\\S*", "LOD" : 3},
+                { "NameMatch" : "^SKM_N_\\S+", "DirRule" : "^Content/Art/NPC/\\S*(/Mesh/)\\S*", "LOD" : 3},
+                { "NameMatch" : "^SKM_M_\\S+", "DirRule" : "^Content/Art/Monster/\\S*(/Mesh/)\\S*", "LOD" : 2},
+                { "NameMatch" : "^SKM_B_\\S+", "DirRule" : "^Content/Art/Boss/\\S*(/Mesh/)\\S*", "LOD" : 3},
+                { "NameMatch" : "^SKM_PET_\\S+", "DirRule" : "^Content/Art/Pet/\\S*(/Mesh/)\\S*"},
+                { "NameMatch" : "^SKM_L_\\S+", "DirRule" : "^Content/Art/Environment/\\S*(/Mesh/)\\S*"},
+                { "NameMatch" : "^SKM_RD_\\S+", "DirRule" : "^Content/Art/Material/Mesh/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "Material",
+            "Name" : { "Type" : "Regex", "Pattern" : "^M_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^M_E_\\S+", "DirRule" : "^Content/Art/Effect/Material/Material/\\S*"},
+                { "NameMatch" : "^M_R_\\S+", "DirRule" : "^Content/Art/Material/Material/\\S*"},
+                { "NameMatch" : "^M_H_\\S+", "DirRule" : "^Content/Art/Material/Material/\\S*"},
+                { "NameMatch" : "^M_N_\\S+", "DirRule" : "^Content/Art/Material/Material/\\S*"},
+                { "NameMatch" : "^M_M_\\S+", "DirRule" : "^Content/Art/Material/Material/\\S*"},
+                { "NameMatch" : "^M_B_\\S+", "DirRule" : "^Content/Art/Material/Material/\\S*"},
+                { "NameMatch" : "^M_PET_\\S+", "DirRule" : "^Content/Art/Material/Material/\\S*"},
+                { "NameMatch" : "^M_L_\\S+", "DirRule" : "^Content/Art/Material/Material/\\S*"},
+                { "NameMatch" : "^M_UI_\\S+", "DirRule" : "^Content/Art/UI/Material/\\S*"},
+                { "NameMatch" : "^M_RD_\\S+", "DirRule" : "^Content/Art/Material/Material/\\S*"},
+                { "NameMatch" : "^M_PP_\\S+", "DirRule" : "^Content/Art/Material/Material/\\S*"},
+	{ "NameMatch" : "^M_LB_\\S+", "DirRule" : "^Content/(Art|Cooperation|Design|Program)/Editor/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "MaterialInstanceConstant",
+            "Name" : { "Type" : "Regex", "Pattern" : "^MI_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^MI_E_\\S+", "DirRule" : "^Content/Art/Effect/Material/MaterialInstance/\\S*"},
+                { "NameMatch" : "^MI_R_\\S+", "DirRule" : "^Content/Art/Role/\\S*(/Material/)\\S*"},
+                { "NameMatch" : "^MI_H_\\S+", "DirRule" : "^Content/Art/Hero/\\S*(/Material/)\\S*"},
+                { "NameMatch" : "^MI_N_\\S+", "DirRule" : "^Content/Art/NPC/\\S*(/Material/)\\S*"},
+                { "NameMatch" : "^MI_M_\\S+", "DirRule" : "^Content/Art/Monster/\\S*(/Material/)\\S*"},
+                { "NameMatch" : "^MI_B_\\S+", "DirRule" : "^Content/Art/Boss/\\S*(/Material/)\\S*"},
+                { "NameMatch" : "^MI_PET_\\S+", "DirRule" : "^Content/Art/Pet/\\S*(/Material/)\\S*"},
+                { "NameMatch" : "^MI_L_\\S+", "DirRule" : "^Content/Art/Environment/\\S*"},
+                { "NameMatch" : "^MI_UI_\\S+", "DirRule" : "^Content/Art/UI/Material/MaterialInstance/\\S*"},
+                { "NameMatch" : "^MI_RD_\\S+", "DirRule" : "^Content/Art/Material/Material/\\S*"},
+                { "NameMatch" : "^MI_PP_\\S+", "DirRule" : "^Content/Art/Material/Material/\\S*"},
+	{ "NameMatch" : "^MI_LB_\\S+", "DirRule" : "^Content/(Art|Cooperation|Design|Program)/Editor/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "MaterialFunction",
+            "Name" : { "Type" : "Regex", "Pattern" : "^MF_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^MF_E_\\S+", "DirRule" : "^Content/Art/Effect/Material/Function/\\S*"},
+                { "NameMatch" : "^MF_R_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MF_H_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MF_N_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MF_M_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MF_B_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MF_PET_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MF_L_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MF_UI_\\S+", "DirRule" : "^Content/Art/UI/Material/Function/\\S*"},
+                { "NameMatch" : "^MF_RD_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MF_PP_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "MaterialParameterCollection",
+            "Name" : { "Type" : "Regex", "Pattern" : "^MPC_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^MPC_E_\\S+", "DirRule" : "^Content/Art/Effect/Material/ParameterCollection/\\S*"},
+                { "NameMatch" : "^MPC_R_\\S+", "DirRule" : "^Content/Art/Material/ParameterCollection/\\S*"},
+                { "NameMatch" : "^MPC_H_\\S+", "DirRule" : "^Content/Art/Material/ParameterCollection/\\S*"},
+                { "NameMatch" : "^MPC_N_\\S+", "DirRule" : "^Content/Art/Material/ParameterCollection/\\S*"},
+                { "NameMatch" : "^MPC_M_\\S+", "DirRule" : "^Content/Art/Material/ParameterCollection/\\S*"},
+                { "NameMatch" : "^MPC_B_\\S+", "DirRule" : "^Content/Art/Material/ParameterCollection/\\S*"},
+                { "NameMatch" : "^MPC_PET_\\S+", "DirRule" : "^Content/Art/Material/ParameterCollection/\\S*"},
+                { "NameMatch" : "^MPC_L_\\S+", "DirRule" : "^Content/Art/Material/ParameterCollection/\\S*"},
+                { "NameMatch" : "^MPC_UI_\\S+", "DirRule" : "^Content/Art/UI/Material/ParameterCollection/\\S*"},
+                { "NameMatch" : "^MPC_RD_\\S+", "DirRule" : "^Content/Art/Material/ParameterCollection/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "MaterialFunctionMaterialLayer",
+            "Name" : { "Type" : "Regex", "Pattern" : "^MFL_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^MFL_E_\\S+", "DirRule" : "^Content/Art/Effect/Material/Function/\\S*"},
+                { "NameMatch" : "^MFL_R_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MFL_H_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MFL_N_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MFL_M_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MFL_B_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MFL_PET_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MFL_L_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MFL_UI_\\S+", "DirRule" : "^Content/Art/UI/Material/Function/\\S*"},
+                { "NameMatch" : "^MFL_RD_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "MaterialFunctionMaterialLayerBlend",
+            "Name" : { "Type" : "Regex", "Pattern" : "^MFLB_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^MFLB_E_\\S+", "DirRule" : "^Content/Art/Effect/Material/Function/\\S*"},
+                { "NameMatch" : "^MFLB_R_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MFLB_H_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MFLB_N_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MFLB_M_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MFLB_B_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MFLB_PET_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MFLB_L_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"},
+                { "NameMatch" : "^MFLB_UI_\\S+", "DirRule" : "^Content/UI/Material/Function/\\S*"},
+                { "NameMatch" : "^MFLB_RD_\\S+", "DirRule" : "^Content/Art/Material/Function/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "Texture2D",
+            "Name" : { "Type" : "Regex", "Pattern" : "^T_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^T_E_\\S+", "DirRule" : "^Content/Art/Effect/Texture/\\S*", "NameRule" : "\\S*_(B|N|M|F)$", "Size" : 1024},
+                { "NameMatch" : "^T_R_\\S+", "DirRule" : "^Content/Art/Role/\\S*(/Texture/)\\S*", "NameRule" : "\\S*_(B|N|M|F)$", "Size" : 1024},
+                { "NameMatch" : "^T_H_\\S+", "DirRule" : "^Content/Art/Hero/\\S*(/Texture/)\\S*", "NameRule" : "\\S*_(B|N|M|F)$", "Size" : 1024},
+                { "NameMatch" : "^T_N_\\S+", "DirRule" : "^Content/Art/NPC/\\S*(/Texture/)\\S*", "NameRule" : "\\S*_(B|N|M|F)$", "Size" : 1024},
+                { "NameMatch" : "^T_M_\\S+", "DirRule" : "^Content/Art/Monster/\\S*(/Texture/)\\S*", "NameRule" : "\\S*_(B|N|M|F)$", "Size" : 1024},
+                { "NameMatch" : "^T_B_\\S+", "DirRule" : "^Content/Art/Boss/\\S*(/Texture/)\\S*", "NameRule" : "\\S*_(B|N|M|F)$", "Size" : 1024},
+                { "NameMatch" : "^T_PET_\\S+", "DirRule" : "^Content/Art/Pet/\\S*(/Texture/)\\S*", "NameRule" : "\\S*_(B|N|M|F)$"},
+                { "NameMatch" : "^T_L_\\S+", "DirRule" : "^Content/Art/Environment/\\S*", "NameRule" : "\\S*_(B|N|M|F)$", "Size" : 1024},
+                { "NameMatch" : "^T_UI_\\S+", "DirRule" : "^Content/Art/UI/Texture/\\S*"},
+                { "NameMatch" : "^T_RD_\\S+", "DirRule" : "^Content/Art/Material/Texture/\\S*"},
+                { "NameMatch" : "^T_LB_\\S+", "DirRule" : "^Content/(Art|Cooperation|Design|Program)/(Editor|Runtime)/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "TextureCube",
+            "Name" : { "Type" : "Regex", "Pattern" : "^TC_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^TC_E_\\S+", "DirRule" : "^Content/Art/Effect/Texture/\\S*"},
+                { "NameMatch" : "^TC_R_\\S+", "DirRule" : "^Content/Art/Role/\\S*"},
+                { "NameMatch" : "^TC_H_\\S+", "DirRule" : "^Content/Art/Hero/\\S*"},
+                { "NameMatch" : "^TC_N_\\S+", "DirRule" : "^Content/Art/NPC/\\S*"},
+                { "NameMatch" : "^TC_M_\\S+", "DirRule" : "^Content/Art/Monster/\\S*"},
+                { "NameMatch" : "^TC_B_\\S+", "DirRule" : "^Content/Art/Boss/\\S*"},
+                { "NameMatch" : "^TC_PET_\\S+", "DirRule" : "^Content/Art/Pet/\\S*"},
+                { "NameMatch" : "^TC_L_\\S+", "DirRule" : "^Content/Art/Environment/\\S*"},
+                { "NameMatch" : "^TC_UI_\\S+", "DirRule" : "^Content/Art/UI/Texture/\\S*"},
+                { "NameMatch" : "^TC_RD_\\S+", "DirRule" : "^Content/Art/Material/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "TextureRenderTarget2D",
+            "Name" : { "Type" : "Regex", "Pattern" : "^RT_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^RT_E_\\S+", "DirRule" : "^Content/Art/Effect/Texture/\\S*"},
+                { "NameMatch" : "^RT_R_\\S+", "DirRule" : "^Content/Art/Role/\\S*"},
+                { "NameMatch" : "^RT_H_\\S+", "DirRule" : "^Content/Art/Hero/\\S*"},
+                { "NameMatch" : "^RT_N_\\S+", "DirRule" : "^Content/Art/NPC/\\S*"},
+                { "NameMatch" : "^RT_M_\\S+", "DirRule" : "^Content/Art/Monster/\\S*"},
+                { "NameMatch" : "^RT_B_\\S+", "DirRule" : "^Content/Art/Boss/\\S*"},
+                { "NameMatch" : "^RT_PET_\\S+", "DirRule" : "^Content/Art/Pet/\\S*"},
+                { "NameMatch" : "^RT_L_\\S+", "DirRule" : "^Content/Art/Environment/\\S*"},
+                { "NameMatch" : "^RT_AI_\\S+", "DirRule" : "^Content/Design/AI/\\S*"},
+                { "NameMatch" : "^RT_UI_\\S+", "DirRule" : "^Content/Art/UI/Texture/\\S*"},
+                { "NameMatch" : "^RT_RD_\\S+", "DirRule" : "^Content/Art/Material/\\S*"},
+	{ "NameMatch" : "^RT_LB_\\S+", "DirRule" : "^Content/(Art|Cooperation|Design|Program)/Editor/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "TextureRenderTargetCube",
+            "Name" : { "Type" : "Regex", "Pattern" : "^RTC_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^RTC_E_\\S+", "DirRule" : "^Content/Art/Effect/Texture/\\S*"},
+                { "NameMatch" : "^RTC_R_\\S+", "DirRule" : "^Content/Art/Role/\\S*"},
+                { "NameMatch" : "^RTC_H_\\S+", "DirRule" : "^Content/Art/Hero/\\S*"},
+                { "NameMatch" : "^RTC_N_\\S+", "DirRule" : "^Content/Art/NPC/\\S*"},
+                { "NameMatch" : "^RTC_M_\\S+", "DirRule" : "^Content/Art/Monster/\\S*"},
+                { "NameMatch" : "^RTC_B_\\S+", "DirRule" : "^Content/Art/Boss/\\S*"},
+                { "NameMatch" : "^RTC_PET_\\S+", "DirRule" : "^Content/Art/Pet/\\S*"},
+                { "NameMatch" : "^RTC_L_\\S+", "DirRule" : "^Content/Art/Environment/\\S*"},
+                { "NameMatch" : "^RTC_AI_\\S+", "DirRule" : "^Content/Design/AI/\\S*"},
+                { "NameMatch" : "^RTC_UI_\\S+", "DirRule" : "^Content/Art/UI/Texture/\\S*"},
+                { "NameMatch" : "^RTC_RD_\\S+", "DirRule" : "^Content/Art/Material/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "RuntimeVirtualTexture",
+            "Name" : { "Type" : "Regex", "Pattern" : "^RVT_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^RVT_E_\\S+", "DirRule" : "^Content/Art/Effect/Texture/\\S*"},
+                { "NameMatch" : "^RVT_R_\\S+", "DirRule" : "^Content/Art/Role/\\S*"},
+                { "NameMatch" : "^RVT_H_\\S+", "DirRule" : "^Content/Art/Hero/\\S*"},
+                { "NameMatch" : "^RVT_N_\\S+", "DirRule" : "^Content/Art/NPC/\\S*"},
+                { "NameMatch" : "^RVT_M_\\S+", "DirRule" : "^Content/Art/Monster/\\S*"},
+                { "NameMatch" : "^RVT_B_\\S+", "DirRule" : "^Content/Art/Boss/\\S*"},
+                { "NameMatch" : "^RVT_PET_\\S+", "DirRule" : "^Content/Art/Pet/\\S*"},
+                { "NameMatch" : "^RVT_L_\\S+", "DirRule" : "^Content/Art/Environment/\\S*"},
+                { "NameMatch" : "^RVT_AI_\\S+", "DirRule" : "^Content/Design/AI/\\S*"},
+                { "NameMatch" : "^RVT_UI_\\S+", "DirRule" : "^Content/Art/UI/Texture/\\S*"},
+                { "NameMatch" : "^RVT_RD_\\S+", "DirRule" : "^Content/Art/Material/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "SubsurfaceProfile",
+            "Name" : { "Type" : "Regex", "Pattern" : "^SSP_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^SSP_E_\\S+", "DirRule" : "^Content/Art/Effect/Material/\\S*"},
+                { "NameMatch" : "^SSP_R_\\S+", "DirRule" : "^Content/Art/Material/\\S*"},
+                { "NameMatch" : "^SSP_H_\\S+", "DirRule" : "^Content/Art/Material/\\S*"},
+                { "NameMatch" : "^SSP_N_\\S+", "DirRule" : "^Content/Art/Material/\\S*"},
+                { "NameMatch" : "^SSP_M_\\S+", "DirRule" : "^Content/Art/Material/\\S*"},
+                { "NameMatch" : "^SSP_B_\\S+", "DirRule" : "^Content/Art/Material/\\S*"},
+                { "NameMatch" : "^SSP_PET_\\S+", "DirRule" : "^Content/Art/Material/\\S*"},
+                { "NameMatch" : "^SSP_L_\\S+", "DirRule" : "^Content/Art/Material/\\S*"},
+                { "NameMatch" : "^SSP_RD_\\S+", "DirRule" : "^Content/Art/Material/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "Texture2DArray",
+            "Name" : { "Type" : "Regex", "Pattern" : "^TDA_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^TDA_E_\\S+", "DirRule" : "^Content/Art/Effect/Texture/\\S*"},
+                { "NameMatch" : "^TDA_R_\\S+", "DirRule" : "^Content/Art/Role/\\S*"},
+                { "NameMatch" : "^TDA_H_\\S+", "DirRule" : "^Content/Art/Hero/\\S*"},
+                { "NameMatch" : "^TDA_N_\\S+", "DirRule" : "^Content/Art/NPC/\\S*"},
+                { "NameMatch" : "^TDA_M_\\S+", "DirRule" : "^Content/Art/Monster/\\S*"},
+                { "NameMatch" : "^TDA_B_\\S+", "DirRule" : "^Content/Art/Boss/\\S*"},
+                { "NameMatch" : "^TDA_PET_\\S+", "DirRule" : "^Content/Art/Pet/\\S*"},
+                { "NameMatch" : "^TDA_L_\\S+", "DirRule" : "^Content/Art/Environment/\\S*"},
+                { "NameMatch" : "^TDA_UI_\\S+", "DirRule" : "^Content/Art/UI/Texture/\\S*"},
+                { "NameMatch" : "^TDA_RD_\\S+", "DirRule" : "^Content/Art/Material/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "TextureRenderTargetVolume",
+            "Name" : { "Type" : "Regex", "Pattern" : "^RTV_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^RTV_E_\\S+", "DirRule" : "^Content/Art/Effect/Texture/\\S*"},
+                { "NameMatch" : "^RTV_R_\\S+", "DirRule" : "^Content/Art/Role/\\S*"},
+                { "NameMatch" : "^RTV_H_\\S+", "DirRule" : "^Content/Art/Hero/\\S*"},
+                { "NameMatch" : "^RTV_N_\\S+", "DirRule" : "^Content/Art/NPC/\\S*"},
+                { "NameMatch" : "^RTV_M_\\S+", "DirRule" : "^Content/Art/Monster/\\S*"},
+                { "NameMatch" : "^RTV_B_\\S+", "DirRule" : "^Content/Art/Boss/\\S*"},
+                { "NameMatch" : "^RTV_PET_\\S+", "DirRule" : "^Content/Art/Pet/\\S*"},
+                { "NameMatch" : "^RTV_L_\\S+", "DirRule" : "^Content/Art/Environment/\\S*"},
+                { "NameMatch" : "^RTV_RD_\\S+", "DirRule" : "^Content/Art/Material/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "VolumeTexture",
+            "Name" : { "Type" : "Regex", "Pattern" : "^VOT_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^VOT_E_\\S+", "DirRule" : "^Content/Art/Effect/Texture/\\S*"},
+                { "NameMatch" : "^VOT_R_\\S+", "DirRule" : "^Content/Art/Role/\\S*"},
+                { "NameMatch" : "^VOT_H_\\S+", "DirRule" : "^Content/Art/Hero/\\S*"},
+                { "NameMatch" : "^VOT_N_\\S+", "DirRule" : "^Content/Art/NPC/\\S*"},
+                { "NameMatch" : "^VOT_M_\\S+", "DirRule" : "^Content/Art/Monster/\\S*"},
+                { "NameMatch" : "^VOT_B_\\S+", "DirRule" : "^Content/Art/Boss/\\S*"},
+                { "NameMatch" : "^VOT_PET_\\S+", "DirRule" : "^Content/Art/Pet/\\S*"},
+                { "NameMatch" : "^VOT_L_\\S+", "DirRule" : "^Content/Art/Environment/\\S*"},
+                { "NameMatch" : "^VOT_RD_\\S+", "DirRule" : "^Content/Art/Material/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "PaperSprite",
+            "Name" : { "Type" : "Regex", "Pattern" : "^PS_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^PS_UI_\\S+", "DirRule" : "^Content/Art/UI/Texture/\\S*"}
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "PaperSpriteSheet",
+            "Name" : { "Type" : "Regex", "Pattern" : "^PSS_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^PSS_UI_\\S+", "DirRule" : "^Content/Art/UI/Texture/\\S*"}
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "NiagaraEmitter",
+            "Name" : { "Type" : "Regex", "Pattern" : "^NE_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^NE_R_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NE_H_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NE_N_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NE_M_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NE_B_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NE_PET_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NE_L_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "NiagaraSystem",
+            "Name" : { "Type" : "Regex", "Pattern" : "^NS_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^NS_R_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NS_H_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NS_N_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NS_M_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NS_B_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NS_PET_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NS_L_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "NiagaraScript",
+            "Name" : { "Type" : "Regex", "Pattern" : "^NSC_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^NSC_LB_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "NiagaraParameterCollection",
+            "Name" : { "Type" : "Regex", "Pattern" : "^NPC_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^NPC_RLB_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NPC_HLB_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NPC_NLB_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NPC_MLB_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NPC_BLB_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NPC_PLB_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NPC_L_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "NiagaraParameterCollectionInstance",
+            "Name" : { "Type" : "Regex", "Pattern" : "^NPCI_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^NPCI_R_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NPCI_H_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NPCI_N_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NPCI_M_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NPCI_B_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NPCI_PET_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NPCI_L_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NPCI_UI_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "NiagaraEffectType",
+            "Name" : { "Type" : "Regex", "Pattern" : "^NET_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^NET_R_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NET_H_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NET_N_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NET_M_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NET_B_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NET_PET_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"},
+                { "NameMatch" : "^NET_L_\\S+", "DirRule" : "^Content/Art/Effect/ParticleSystem/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "PhysicalMaterial",
+            "Name" : { "Type" : "Regex", "Pattern" : "^PM_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^PM_E_\\S+", "DirRule" : "^Content/Cooperation/PhysicalMaterial/\\S*"},
+                { "NameMatch" : "^PM_R_\\S+", "DirRule" : "^Content/Cooperation/PhysicalMaterial/\\S*"},
+                { "NameMatch" : "^PM_H_\\S+", "DirRule" : "^Content/Cooperation/PhysicalMaterial/\\S*"},
+                { "NameMatch" : "^PM_N_\\S+", "DirRule" : "^Content/Cooperation/PhysicalMaterial/\\S*"},
+                { "NameMatch" : "^PM_M_\\S+", "DirRule" : "^Content/Cooperation/PhysicalMaterial/\\S*"},
+                { "NameMatch" : "^PM_B_\\S+", "DirRule" : "^Content/Cooperation/PhysicalMaterial/\\S*"},
+                { "NameMatch" : "^PM_PET_\\S+", "DirRule" : "^Content/Cooperation/PhysicalMaterial/\\S*"},
+                { "NameMatch" : "^PM_L_\\S+", "DirRule" : "^Content/Cooperation/PhysicalMaterial/\\S*"},
+                { "NameMatch" : "^PM_CFG_\\S+", "DirRule" : "^Content/Cooperation/PhysicalMaterial/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "PhysicsAsset",
+            "Name" : { "Type" : "Regex", "Pattern" : "^PA_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^PA_E_\\S+", "DirRule" : "^Content/Art/Effect/\\S*(/Mesh/)\\S*"},
+                { "NameMatch" : "^PA_R_\\S+", "DirRule" : "^Content/Art/Role/\\S*(/Mesh/)\\S*"},
+                { "NameMatch" : "^PA_H_\\S+", "DirRule" : "^Content/Art/Hero/\\S*(/Mesh/)\\S*"},
+                { "NameMatch" : "^PA_N_\\S+", "DirRule" : "^Content/Art/NPC/\\S*(/Mesh/)\\S*"},
+                { "NameMatch" : "^PA_M_\\S+", "DirRule" : "^Content/Art/Monster/\\S*(/Mesh/)\\S*"},
+                { "NameMatch" : "^PA_B_\\S+", "DirRule" : "^Content/Art/Boss/\\S*(/Mesh/)\\S*"},
+                { "NameMatch" : "^PA_PET_\\S+", "DirRule" : "^Content/Art/Pet/\\S*(/Mesh/)\\S*"},
+                { "NameMatch" : "^PA_L_\\S+", "DirRule" : "^Content/Art/Environment/\\S*(/Mesh/)\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "Skeleton",
+            "Name" : { "Type" : "Regex", "Pattern" : "^SK_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [                
+	{ "NameMatch" : "^SK_E_\\S+", "DirRule" : "^Content/Art/Effect/\\S*(/Mesh/)\\S*"},
+                { "NameMatch" : "^SK_R_\\S+", "DirRule" : "^Content/(Art|Cooperation)/Role/\\S*(/Mesh/)\\S*"},
+	{ "NameMatch" : "^SK_H_\\S+", "DirRule" : "^Content/(Art|Cooperation)/Hero/\\S*(/Mesh/)\\S*"},
+	{ "NameMatch" : "^SK_N_\\S+", "DirRule" : "^Content/(Art|Cooperation)/NPC/\\S*(/Mesh/)\\S*"},
+	{ "NameMatch" : "^SK_M_\\S+", "DirRule" : "^Content/(Art|Cooperation)/Monster/\\S*(/Mesh/)\\S*"},
+	{ "NameMatch" : "^SK_B_\\S+", "DirRule" : "^Content/(Art|Cooperation)/Boss/\\S*(/Mesh/)\\S*"},
+	{ "NameMatch" : "^SK_PET_\\S+", "DirRule" : "^Content/(Art|Cooperation)/Pet/\\S*(/Mesh/)\\S*"},
+	{ "NameMatch" : "^SK_L_\\S+", "DirRule" : "^Content/Art/Environment/\\S*(/Mesh/)\\S*"}
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "AnimSequence",
+            "Name" : { "Type" : "Regex", "Pattern" : "^AS_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^AS_E_\\S+", "DirRule" : "^Content/Art/Animation/Effect/\\S*"},
+                { "NameMatch" : "^AS_R_\\S+", "DirRule" : "^Content/Art/Animation/Role/\\S*"},
+                { "NameMatch" : "^AS_H_\\S+", "DirRule" : "^Content/Art/Animation/Hero/\\S*"},
+                { "NameMatch" : "^AS_N_\\S+", "DirRule" : "^Content/Art/Animation/NPC/\\S*"},
+                { "NameMatch" : "^AS_M_\\S+", "DirRule" : "^Content/Art/Animation/Monster/\\S*"},
+                { "NameMatch" : "^AS_B_\\S+", "DirRule" : "^Content/Art/Animation/Boss/\\S*"},
+                { "NameMatch" : "^AS_PET_\\S+", "DirRule" : "^Content/Art/Animation/Pet/\\S*"},
+                { "NameMatch" : "^AS_L_\\S+", "DirRule" : "^Content/Art/Animation/Environment/\\S*"},
+                { "NameMatch" : "^AS_\\S+" }
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "AnimMontage",
+            "Name" : { "Type" : "Regex", "Pattern" : "^AM_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^AM_E_\\S+", "DirRule" : "^Content/Cooperation/Animation/Effect/\\S*"},
+                { "NameMatch" : "^AM_R_\\S+", "DirRule" : "^Content/Cooperation/Animation/Role/\\S*"},
+                { "NameMatch" : "^AM_H_\\S+", "DirRule" : "^Content/Cooperation/Animation/Hero/\\S*"},
+                { "NameMatch" : "^AM_N_\\S+", "DirRule" : "^Content/Cooperation/Animation/NPC/\\S*"},
+                { "NameMatch" : "^AM_M_\\S+", "DirRule" : "^Content/Cooperation/Animation/Monster/\\S*"},
+                { "NameMatch" : "^AM_B_\\S+", "DirRule" : "^Content/Cooperation/Animation/Boss/\\S*"},
+                { "NameMatch" : "^AM_PET_\\S+", "DirRule" : "^Content/Cooperation/Animation/Pet/\\S*"},
+                { "NameMatch" : "^AM_L_\\S+", "DirRule" : "^Content/Cooperation/Animation/Environment/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "AnimBlueprint",
+            "Name" : { "Type" : "Regex", "Pattern" : "^(ABP|ABPC|ALI)_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^ABP_E_\\S+", "DirRule" : "^Content/Program/\\S*"},
+                { "NameMatch" : "^ABP_R_\\S+", "DirRule" : "^Content/Program/\\S*"},
+                { "NameMatch" : "^ABP_H_\\S+", "DirRule" : "^Content/Program/\\S*"},
+                { "NameMatch" : "^ABP_N_\\S+", "DirRule" : "^Content/Program/\\S*"},
+                { "NameMatch" : "^ABP_M_\\S+", "DirRule" : "^Content/Program/\\S*"},
+                { "NameMatch" : "^ABP_B_\\S+", "DirRule" : "^Content/Program/\\S*"},
+                { "NameMatch" : "^ABP_PET_\\S+", "DirRule" : "^Content/Program/\\S*"},
+                { "NameMatch" : "^ABP_L_\\S+", "DirRule" : "^Content/Program/\\S*"},
+                { "NameMatch" : "^ABPC_E_\\S+", "DirRule" : "^Content/(Design|Cooperation)/Animation/Effect/\\S*"},
+                { "NameMatch" : "^ABPC_R_\\S+", "DirRule" : "^Content/(Design|Cooperation)/Animation/Role/\\S*"},
+                { "NameMatch" : "^ABPC_H_\\S+", "DirRule" : "^Content/(Design|Cooperation)/Animation/Hero/\\S*"},
+                { "NameMatch" : "^ABPC_N_\\S+", "DirRule" : "^Content/(Design|Cooperation)/Animation/NPC/\\S*"},
+                { "NameMatch" : "^ABPC_M_\\S+", "DirRule" : "^Content/(Design|Cooperation)/Animation/Monster/\\S*"},
+                { "NameMatch" : "^ABPC_B_\\S+", "DirRule" : "^Content/(Design|Cooperation)/Animation/Boss/\\S*"},
+                { "NameMatch" : "^ABPC_PET_\\S+", "DirRule" : "^Content/(Design|Cooperation)/Animation/Pet/\\S*"},
+                { "NameMatch" : "^ABPC_L_\\S+", "DirRule" : "^Content/(Design|Cooperation)/Animation/Environment/\\S*"},
+                { "NameMatch" : "^ALI_E_\\S+", "DirRule" : "^Content/Program/\\S*"},
+                { "NameMatch" : "^ALI_R_\\S+", "DirRule" : "^Content/Program/\\S*"},
+                { "NameMatch" : "^ALI_H_\\S+", "DirRule" : "^Content/Program/\\S*"},
+                { "NameMatch" : "^ALI_N_\\S+", "DirRule" : "^Content/Program/\\S*"},
+                { "NameMatch" : "^ALI_M_\\S+", "DirRule" : "^Content/Program/\\S*"},
+                { "NameMatch" : "^ALI_B_\\S+", "DirRule" : "^Content/Program/\\S*"},
+                { "NameMatch" : "^ALI_PET_\\S+", "DirRule" : "^Content/Program/\\S*"},
+                { "NameMatch" : "^ALI_L_\\S+", "DirRule" : "^Content/Program/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "BlendSpace",
+            "Name" : { "Type" : "Regex", "Pattern" : "^BS_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^BS_E_\\S+", "DirRule" : "^Content/Cooperation/Animation/Effect/\\S*"},
+                { "NameMatch" : "^BS_R_\\S+", "DirRule" : "^Content/Cooperation/Animation/Role/\\S*"},
+                { "NameMatch" : "^BS_H_\\S+", "DirRule" : "^Content/Cooperation/Animation/Hero/\\S*"},
+                { "NameMatch" : "^BS_N_\\S+", "DirRule" : "^Content/Cooperation/Animation/NPC/\\S*"},
+                { "NameMatch" : "^BS_M_\\S+", "DirRule" : "^Content/Cooperation/Animation/Monster/\\S*"},
+                { "NameMatch" : "^BS_B_\\S+", "DirRule" : "^Content/Cooperation/Animation/Boss/\\S*"},
+                { "NameMatch" : "^BS_PET_\\S+", "DirRule" : "^Content/Cooperation/Animation/Pet/\\S*"},
+                { "NameMatch" : "^BS_L_\\S+", "DirRule" : "^Content/Cooperation/Animation/Environment/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "BlendSpace1D",
+            "Name" : { "Type" : "Regex", "Pattern" : "^BSD_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^BSD_E_\\S+", "DirRule" : "^Content/Cooperation/Animation/Effect/\\S*"},
+                { "NameMatch" : "^BSD_R_\\S+", "DirRule" : "^Content/Cooperation/Animation/Role/\\S*"},
+                { "NameMatch" : "^BSD_H_\\S+", "DirRule" : "^Content/Cooperation/Animation/Hero/\\S*"},
+                { "NameMatch" : "^BSD_N_\\S+", "DirRule" : "^Content/Cooperation/Animation/NPC/\\S*"},
+                { "NameMatch" : "^BSD_M_\\S+", "DirRule" : "^Content/Cooperation/Animation/Monster/\\S*"},
+                { "NameMatch" : "^BSD_B_\\S+", "DirRule" : "^Content/Cooperation/Animation/Boss/\\S*"},
+                { "NameMatch" : "^BSD_PET_\\S+", "DirRule" : "^Content/Cooperation/Animation/Pet/\\S*"},
+                { "NameMatch" : "^BSD_L_\\S+", "DirRule" : "^Content/Cooperation/Animation/Environment/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "AimOffsetBlendSpace",
+            "Name" : { "Type" : "Regex", "Pattern" : "^AO_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^AO_E_\\S+", "DirRule" : "^Content/Cooperation/Animation/Effect/\\S*"},
+                { "NameMatch" : "^AO_R_\\S+", "DirRule" : "^Content/Cooperation/Animation/Role/\\S*"},
+                { "NameMatch" : "^AO_H_\\S+", "DirRule" : "^Content/Cooperation/Animation/Hero/\\S*"},
+                { "NameMatch" : "^AO_N_\\S+", "DirRule" : "^Content/Cooperation/Animation/NPC/\\S*"},
+                { "NameMatch" : "^AO_M_\\S+", "DirRule" : "^Content/Cooperation/Animation/Monster/\\S*"},
+                { "NameMatch" : "^AO_B_\\S+", "DirRule" : "^Content/Cooperation/Animation/Boss/\\S*"},
+                { "NameMatch" : "^AO_PET_\\S+", "DirRule" : "^Content/Cooperation/Animation/Pet/\\S*"},
+                { "NameMatch" : "^AO_L_\\S+", "DirRule" : "^Content/Cooperation/Animation/Environment/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "AimOffsetBlendSpace1D",
+            "Name" : { "Type" : "Regex", "Pattern" : "^AOD_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^AOD_E_\\S+", "DirRule" : "^Content/Cooperation/Animation/Effect/\\S*"},
+                { "NameMatch" : "^AOD_R_\\S+", "DirRule" : "^Content/Cooperation/Animation/Role/\\S*"},
+                { "NameMatch" : "^AOD_H_\\S+", "DirRule" : "^Content/Cooperation/Animation/Hero/\\S*"},
+                { "NameMatch" : "^AOD_N_\\S+", "DirRule" : "^Content/Cooperation/Animation/NPC/\\S*"},
+                { "NameMatch" : "^AOD_M_\\S+", "DirRule" : "^Content/Cooperation/Animation/Monster/\\S*"},
+                { "NameMatch" : "^AOD_B_\\S+", "DirRule" : "^Content/Cooperation/Animation/Boss/\\S*"},
+                { "NameMatch" : "^AOD_PET_\\S+", "DirRule" : "^Content/Cooperation/Animation/Pet/\\S*"},
+                { "NameMatch" : "^AOD_L_\\S+", "DirRule" : "^Content/Cooperation/Animation/Environment/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "AnimComposite",
+            "Name" : { "Type" : "Regex", "Pattern" : "^AC_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^AC_E_\\S+", "DirRule" : "^Content/Cooperation/Animation/Effect/\\S*"},
+                { "NameMatch" : "^AC_R_\\S+", "DirRule" : "^Content/Cooperation/Animation/Role/\\S*"},
+                { "NameMatch" : "^AC_H_\\S+", "DirRule" : "^Content/Cooperation/Animation/Hero/\\S*"},
+                { "NameMatch" : "^AC_N_\\S+", "DirRule" : "^Content/Cooperation/Animation/NPC/\\S*"},
+                { "NameMatch" : "^AC_M_\\S+", "DirRule" : "^Content/Cooperation/Animation/Monster/\\S*"},
+                { "NameMatch" : "^AC_B_\\S+", "DirRule" : "^Content/Cooperation/Animation/Boss/\\S*"},
+                { "NameMatch" : "^AC_PET_\\S+", "DirRule" : "^Content/Cooperation/Animation/Pet/\\S*"},
+                { "NameMatch" : "^AC_L_\\S+", "DirRule" : "^Content/Cooperation/Animation/Environment/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "NodeMappingContainer",
+            "Name" : { "Type" : "Regex", "Pattern" : "^NMC_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^NMC_E_\\S+", "DirRule" : "^Content/Art/Effect/\\S*"},
+                { "NameMatch" : "^NMC_R_\\S+", "DirRule" : "^Content/Art/Role/\\S*"},
+                { "NameMatch" : "^NMC_H_\\S+", "DirRule" : "^Content/Art/Hero/\\S*"},
+                { "NameMatch" : "^NMC_N_\\S+", "DirRule" : "^Content/Art/NPC/\\S*"},
+                { "NameMatch" : "^NMC_M_\\S+", "DirRule" : "^Content/Art/Monster/\\S*"},
+                { "NameMatch" : "^NMC_B_\\S+", "DirRule" : "^Content/Art/Boss/\\S*"},
+                { "NameMatch" : "^NMC_PET_\\S+", "DirRule" : "^Content/Art/Pet/\\S*"},
+                { "NameMatch" : "^NMC_L_\\S+", "DirRule" : "^Content/Art/Environment/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "MotionMatchConfig",
+            "Name" : { "Type" : "Regex", "Pattern" : "^MMC_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^MMC_R_\\S+", "DirRule" : "^Content/Cooperation/Animation/Role/\\S*"},
+                { "NameMatch" : "^MMC_H_\\S+", "DirRule" : "^Content/Cooperation/Animation/Hero/\\S*"},
+                { "NameMatch" : "^MMC_N_\\S+", "DirRule" : "^Content/Cooperation/Animation/NPC/\\S*"},
+                { "NameMatch" : "^MMC_M_\\S+", "DirRule" : "^Content/Cooperation/Animation/Monster/\\S*"},
+                { "NameMatch" : "^MMC_B_\\S+", "DirRule" : "^Content/Cooperation/Animation/Boss/\\S*"},
+                { "NameMatch" : "^MMC_PET_\\S+", "DirRule" : "^Content/Cooperation/Animation/Pet/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "MirroringProfile",
+            "Name" : { "Type" : "Regex", "Pattern" : "^MP_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^MP_R_\\S+", "DirRule" : "^Content/Cooperation/Animation/Role/\\S*"},
+                { "NameMatch" : "^MP_H_\\S+", "DirRule" : "^Content/Cooperation/Animation/Hero/\\S*"},
+                { "NameMatch" : "^MP_N_\\S+", "DirRule" : "^Content/Cooperation/Animation/NPC/\\S*"},
+                { "NameMatch" : "^MP_M_\\S+", "DirRule" : "^Content/Cooperation/Animation/Monster/\\S*"},
+                { "NameMatch" : "^MP_B_\\S+", "DirRule" : "^Content/Cooperation/Animation/Boss/\\S*"},
+                { "NameMatch" : "^MP_PET_\\S+", "DirRule" : "^Content/Cooperation/Animation/Pet/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "MotionCalibration",
+            "Name" : { "Type" : "Regex", "Pattern" : "^MC_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^MC_R_\\S+", "DirRule" : "^Content/Cooperation/Animation/Role/\\S*"},
+                { "NameMatch" : "^MC_H_\\S+", "DirRule" : "^Content/Cooperation/Animation/Hero/\\S*"},
+                { "NameMatch" : "^MC_N_\\S+", "DirRule" : "^Content/Cooperation/Animation/NPC/\\S*"},
+                { "NameMatch" : "^MC_M_\\S+", "DirRule" : "^Content/Cooperation/Animation/Monster/\\S*"},
+                { "NameMatch" : "^MC_B_\\S+", "DirRule" : "^Content/Cooperation/Animation/Boss/\\S*"},
+                { "NameMatch" : "^MC_PET_\\S+", "DirRule" : "^Content/Cooperation/Animation/Pet/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "MotionDataAsset",
+            "Name" : { "Type" : "Regex", "Pattern" : "^MDA_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^MDA_R_\\S+", "DirRule" : "^Content/Cooperation/Animation/Role/\\S*"},
+                { "NameMatch" : "^MDA_H_\\S+", "DirRule" : "^Content/Cooperation/Animation/Hero/\\S*"},
+                { "NameMatch" : "^MDA_N_\\S+", "DirRule" : "^Content/Cooperation/Animation/NPC/\\S*"},
+                { "NameMatch" : "^MDA_M_\\S+", "DirRule" : "^Content/Cooperation/Animation/Monster/\\S*"},
+                { "NameMatch" : "^MDA_B_\\S+", "DirRule" : "^Content/Cooperation/Animation/Boss/\\S*"},
+                { "NameMatch" : "^MDA_PET_\\S+", "DirRule" : "^Content/Cooperation/Animation/Pet/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "MMOptimisation_MultiClustering",
+            "Name" : { "Type" : "Regex", "Pattern" : "^MOMC_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^MOMC_R_\\S+", "DirRule" : "^Content/Cooperation/Animation/Role/\\S*"},
+                { "NameMatch" : "^MOMC_H_\\S+", "DirRule" : "^Content/Cooperation/Animation/Hero/\\S*"},
+                { "NameMatch" : "^MOMC_N_\\S+", "DirRule" : "^Content/Cooperation/Animation/NPC/\\S*"},
+                { "NameMatch" : "^MOMC_M_\\S+", "DirRule" : "^Content/Cooperation/Animation/Monster/\\S*"},
+                { "NameMatch" : "^MOMC_B_\\S+", "DirRule" : "^Content/Cooperation/Animation/Boss/\\S*"},
+                { "NameMatch" : "^MOMC_PET_\\S+", "DirRule" : "^Content/Cooperation/Animation/Pet/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "MMOptimisation_TraitBins",
+            "Name" : { "Type" : "Regex", "Pattern" : "^MOTB_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^MOTB_R_\\S+", "DirRule" : "^Content/Cooperation/Animation/Role/\\S*"},
+                { "NameMatch" : "^MOTB_H_\\S+", "DirRule" : "^Content/Cooperation/Animation/Hero/\\S*"},
+                { "NameMatch" : "^MOTB_N_\\S+", "DirRule" : "^Content/Cooperation/Animation/NPC/\\S*"},
+                { "NameMatch" : "^MOTB_M_\\S+", "DirRule" : "^Content/Cooperation/Animation/Monster/\\S*"},
+                { "NameMatch" : "^MOTB_B_\\S+", "DirRule" : "^Content/Cooperation/Animation/Boss/\\S*"},
+                { "NameMatch" : "^MOTB_PET_\\S+", "DirRule" : "^Content/Cooperation/Animation/Pet/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "ControlRigBlueprint",
+            "Name" : { "Type" : "Regex", "Pattern" : "^CR_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^CR_R_\\S+", "DirRule" : "^Content/(Program|Cooperation/Animation/Role)/\\S*"},
+                { "NameMatch" : "^CR_H_\\S+", "DirRule" : "^Content/(Program|Cooperation/Animation/Hero)/\\S*"},
+                { "NameMatch" : "^CR_N_\\S+", "DirRule" : "^Content/(Program|Cooperation/Animation/NPC)/\\S*"},
+                { "NameMatch" : "^CR_M_\\S+", "DirRule" : "^Content/(Program|Cooperation/Animation/Monster)/\\S*"},
+                { "NameMatch" : "^CR_B_\\S+", "DirRule" : "^Content/(Program|Cooperation/Animation/Boss)/\\S*"},
+                { "NameMatch" : "^CR_PET_\\S+", "DirRule" : "^Content/(Program|Cooperation/Animation/Pet)/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "IKRigDefinition",
+            "Name" : { "Type" : "Regex", "Pattern" : "^IKR_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^IKR_R_\\S+", "DirRule" : "^Content/(Program|Cooperation/Animation/Role)/\\S*"},
+                { "NameMatch" : "^IKR_H_\\S+", "DirRule" : "^Content/(Program|Cooperation/Animation/Hero)/\\S*"},
+                { "NameMatch" : "^IKR_N_\\S+", "DirRule" : "^Content/(Program|Cooperation/Animation/NPC)/\\S*"},
+                { "NameMatch" : "^IKR_M_\\S+", "DirRule" : "^Content/(Program|Cooperation/Animation/Monster)/\\S*"},
+                { "NameMatch" : "^IKR_B_\\S+", "DirRule" : "^Content/(Program|Cooperation/Animation/Boss)/\\S*"},
+                { "NameMatch" : "^IKR_PET_\\S+", "DirRule" : "^Content/(Program|Cooperation/Animation/Pet)/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "IKRetargeter",
+            "Name" : { "Type" : "Regex", "Pattern" : "^IKRT_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^IKRT_R_\\S+", "DirRule" : "^Content/(Program|Cooperation/Animation/Role)/\\S*"},
+                { "NameMatch" : "^IKRT_H_\\S+", "DirRule" : "^Content/(Program|Cooperation/Animation/Hero)/\\S*"},
+                { "NameMatch" : "^IKRT_N_\\S+", "DirRule" : "^Content/(Program|Cooperation/Animation/NPC)/\\S*"},
+                { "NameMatch" : "^IKRT_M_\\S+", "DirRule" : "^Content/(Program|Cooperation/Animation/Monster)/\\S*"},
+                { "NameMatch" : "^IKRT_B_\\S+", "DirRule" : "^Content/(Program|Cooperation/Animation/Boss)/\\S*"},
+                { "NameMatch" : "^IKRT_PET_\\S+", "DirRule" : "^Content/(Program|Cooperation/Animation/Pet)/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "PoseAsset",
+            "Name" : { "Type" : "Regex", "Pattern" : "^POA_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^POA_R_\\S+", "DirRule" : "^Content/(Art|Cooperation)/Animation/Role/\\S*"},
+                { "NameMatch" : "^POA_H_\\S+", "DirRule" : "^Content/(Art|Cooperation)/Animation/Hero/\\S*"},
+                { "NameMatch" : "^POA_N_\\S+", "DirRule" : "^Content/(Art|Cooperation)/Animation/NPC/\\S*"},
+                { "NameMatch" : "^POA_M_\\S+", "DirRule" : "^Content/(Art|Cooperation)/Animation/Monster/\\S*"},
+                { "NameMatch" : "^POA_B_\\S+", "DirRule" : "^Content/(Art|Cooperation)/Animation/Boss/\\S*"},
+                { "NameMatch" : "^POA_PET_\\S+", "DirRule" : "^Content/(Art|Cooperation)/Animation/Pet/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "World",
+            "Name" : { "Type" : "Regex", "Pattern" : "^(ML|SL)_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^ML_L_\\S+", "DirRule" : "^Content/(Art|Design|Cooperation)/Map/\\S*"},
+                { "NameMatch" : "^SL_L_\\S+", "DirRule" : "^Content/(Art|Design|Cooperation)/Map/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "LevelSequence",
+            "Name" : { "Type" : "Regex", "Pattern" : "^LS_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^LS_L_\\S+", "DirRule" : "^Content/Art/Map/\\S*"},
+                { "NameMatch" : "^LS_P_\\S+", "DirRule" : "^Content/Art/Sequence/Player/\\S*"},
+                { "NameMatch" : "^LS_A_\\S+", "DirRule" : "^Content/Art/Sequence/Acts/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "LandscapeLayerInfoObject",
+            "Name" : { "Type" : "Regex", "Pattern" : "^LL_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^LL_L_\\S+", "DirRule" : "^Content/(Art/Map|Art/Environment|Cooperation/Map)/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "FoliageType",
+            "Name" : { "Type" : "Regex", "Pattern" : "^FT_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^FT_L_\\S+", "DirRule" : "^Content/(Art/Map|Art/Environment|Cooperation/Map)/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "ProceduralFoliageSpawner",
+            "Name" : { "Type" : "Regex", "Pattern" : "^PFS_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^PFS_L_\\S+", "DirRule" : "^Content/Art/(Map|Environment)/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "LandscapeGrassType",
+            "Name" : { "Type" : "Regex", "Pattern" : "^LGT_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^LGT_L_\\S+", "DirRule" : "^Content/Art/(Map|Environment)/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "FoliageType_InstancedStaticMesh",
+            "Name" : { "Type" : "Regex", "Pattern" : "^FTISM_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^FTISM_L_\\S+", "DirRule" : "^Content/Art/(Map|Environment)/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "FoliageType_Actor",
+            "Name" : { "Type" : "Regex", "Pattern" : "^FTA_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^FTA_L_\\S+", "DirRule" : "^Content/Art/(Map|Environment)/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "HLODLayer",
+            "Name" : { "Type" : "Regex", "Pattern" : "^HL_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^HL_L_\\S+", "DirRule" : "^Content/(Art|Cooperation)/Map/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "SoundCue",
+            "Name" : { "Type" : "Regex", "Pattern" : "^CUE_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^CUE_E_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^CUE_R_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^CUE_H_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^CUE_N_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^CUE_M_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^CUE_B_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^CUE_PET_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^CUE_L_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "SoundAttenuation",
+            "Name" : { "Type" : "Regex", "Pattern" : "^SA_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^SA_E_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SA_R_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SA_H_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SA_N_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SA_M_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SA_B_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SA_PET_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SA_L_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "SoundClass",
+            "Name" : { "Type" : "Regex", "Pattern" : "^SC_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^SC_E_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SC_R_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SC_H_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SC_N_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SC_M_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SC_B_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SC_PET_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SC_L_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "SoundWave",
+            "Name" : { "Type" : "Regex", "Pattern" : "^SW_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^SW_E_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SW_R_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SW_H_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SW_N_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SW_M_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SW_B_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SW_PET_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^SW_L_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "AkAudioEvent",
+            "Name" : { "Type" : "Regex", "Pattern" : "^AAE_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^AAE_E_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAE_R_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAE_H_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAE_N_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAE_M_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAE_B_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAE_PET_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAE_L_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAE_H_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAE_CV_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAE_BG_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "AkAudioBank",
+            "Name" : { "Type" : "Regex", "Pattern" : "^AAB_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^AAB_E_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAB_R_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAB_H_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAB_N_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAB_M_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAB_B_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAB_PET_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAB_L_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAB_H_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAB_CV_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"},
+                { "NameMatch" : "^AAB_BG_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "AkInitBank",
+            "Name" : { "Type" : "Regex", "Pattern" : "^AIB_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^AIB_CFG_\\S+", "DirRule" : "^Content/Art/Sound/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "BehaviorTree",
+            "Name" : { "Type" : "Regex", "Pattern" : "^BT_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^BT_AI_\\S+", "DirRule" : "^Content/(Cooperation|Design)/AI/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "BTTask_BlueprintBase",
+            "Name" : { "Type" : "Regex", "Pattern" : "^BTT_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^BTT_AI_\\S+", "DirRule" : "^Content/(Cooperation|Design)/AI/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "BTDecorator_BlueprintBase",
+            "Name" : { "Type" : "Regex", "Pattern" : "^BTD_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^BTD_AI_\\S+", "DirRule" : "^Content/(Cooperation|Design)/AI/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "BTService_BlueprintBase",
+            "Name" : { "Type" : "Regex", "Pattern" : "^BTS_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^BTS_AI_\\S+", "DirRule" : "^Content/(Cooperation|Design)/AI/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "BlackboardData",
+            "Name" : { "Type" : "Regex", "Pattern" : "^BB_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^BB_AI_\\S+", "DirRule" : "^Content/(Design|Cooperation)/AI/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "EnvQuery",
+            "Name" : { "Type" : "Regex", "Pattern" : "^EQS_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^EQS_AI_\\S+", "DirRule" : "^Content/Program/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "WidgetBlueprint",
+            "Name" : { "Type" : "Regex", "Pattern" : "^UMG_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^UMG_UI_\\S+", "DirRule" : "^Content/Cooperation/UMG/\\S*"},
+                { "NameMatch" : "^UMG_LB_\\S+", "DirRule" : "^Content/(Art|Design|Program)/Editor/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "Font",
+            "Name" : { "Type" : "Regex", "Pattern" : "^FT_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^FT_UI_\\S+", "DirRule" : "^Content/Art/Font/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "FontFace",
+            "Name" : { "Type" : "Regex", "Pattern" : "^FF_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^FF_UI_\\S+", "DirRule" : "^Content/Art/Font/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "Blueprint",
+            "Name" : { "Type" : "Regex", "Pattern" : "^BP_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^BP_E_\\S+", "DirRule" : "^Content/(Art/Effect|Design/Effect|Program|Cooperation/Effect)/\\S*"},
+                { "NameMatch" : "^BP_R_\\S+", "DirRule" : "^Content/(Art/Role|Design/Role|Program|Cooperation/Role)/\\S*"},
+                { "NameMatch" : "^BP_H_\\S+", "DirRule" : "^Content/(Art/Hero|Design/Hero|Program|Cooperation/Hero)/\\S*"},
+                { "NameMatch" : "^BP_N_\\S+", "DirRule" : "^Content/(Art/NPC|Design/NPC|Program|Cooperation/NPC)/\\S*"},
+                { "NameMatch" : "^BP_M_\\S+", "DirRule" : "^Content/(Art/Monster|Design/Monster|Program|Cooperation/Monster)/\\S*"},
+                { "NameMatch" : "^BP_B_\\S+", "DirRule" : "^Content/(Art/Boss|Design/Boss|Program|Cooperation/Boss)/\\S*"},
+                { "NameMatch" : "^BP_PET_\\S+", "DirRule" : "^Content/(Art/Pet|Design/Pet|Program|Cooperation/Pet)/\\S*"},
+                { "NameMatch" : "^BP_L_\\S+", "DirRule" : "^Content/(Art/Environment|Design/Environment|Program|Cooperation/Environment)/\\S*"},
+                { "NameMatch" : "^BP_AI_\\S+", "DirRule" : "^Content/(Art/AI|Design/AI|Program|Cooperation/AI)/\\S*"},
+                { "NameMatch" : "^BP_UI_\\S+", "DirRule" : "^Content/Cooperation/UMG/\\S*"},
+                { "NameMatch" : "^BP_RD_\\S+", "DirRule" : "^Content/Art/\\S*"},
+                { "NameMatch" : "^BP_LB_\\S+", "DirRule" : "^Content/(Art|Cooperation|Design|Program)/Editor/\\S*"},
+                { "NameMatch" : "^BP_CFG_\\S+", "DirRule" : "^Content/(Design|Cooperation|Program)/\\S*"},
+                { "NameMatch" : "^BP_P_\\S+", "DirRule" : "^Content/Program/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "DataTable",
+            "Name" : { "Type" : "Regex", "Pattern" : "^DT_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^DT_CFG_\\S+", "DirRule" : "^Content/Design/\\S*"},
+                { "NameMatch" : "^DT_RD_\\S+", "DirRule" : "^Content/Art/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "DataAsset",
+            "Name" : { "Type" : "Regex", "Pattern" : "^(DA|BB|EQS)_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^DA_CFG_\\S+", "DirRule" : "^Content/(Design|Cooperation)/\\S*"},
+                { "NameMatch" : "^DA_RD_\\S+", "DirRule" : "^Content/Art/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "EditorUtilityBlueprint",
+            "Name" : { "Type" : "Regex", "Pattern" : "^EUBP_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^EUBP_LB_\\S+", "DirRule" : "^Content/(Art|Design|Program)/Editor/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+		{
+            "Type" : "EditorUtilityWidgetBlueprint",
+            "Name" : { "Type" : "Regex", "Pattern" : "^EWBP_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^EWBP_LB_\\S+", "DirRule" : "^Content/(Art|Design|Program)/Editor/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "CurveFloat",
+            "Name" : { "Type" : "Regex", "Pattern" : "^FC_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^FC_CFG_\\S+", "DirRule" : "^Content/(Art|Design|Cooperation)/\\S*"},
+                { "NameMatch" : "^FC_RD_\\S+", "DirRule" : "^Content/Art/Material/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "CurveLinearColor",
+            "Name" : { "Type" : "Regex", "Pattern" : "^CC_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^CC_CFG_\\S+", "DirRule" : "^Content/(Art|Design|Cooperation)/\\S*"},
+                { "NameMatch" : "^CC_RD_\\S+", "DirRule" : "^Content/Art/Material/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        { 
+            "Type" : "CurveVector",
+            "Name" : { "Type" : "Regex", "Pattern" : "^VC_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^VC_CFG_\\S+", "DirRule" : "^Content/(Design|Cooperation)/\\S*"},
+                { "NameMatch" : "^VC_RD_\\S+", "DirRule" : "^Content/Art/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "CurveLinearColorAtlas",
+            "Name" : { "Type" : "Regex", "Pattern" : "^CLCA_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^CLCA_RD_\\S+", "DirRule" : "^Content/Art/Material/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "UserDefinedStruct",
+            "Name" : { "Type" : "Regex", "Pattern" : "^UDS_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^UDS_E_\\S+", "DirRule" : "^Content/(Design/Effect|Program)/\\S*"},
+                { "NameMatch" : "^UDS_R_\\S+", "DirRule" : "^Content/(Design/Role|Program)/\\S*"},
+                { "NameMatch" : "^UDS_H_\\S+", "DirRule" : "^Content/(Design/Hero|Program)/\\S*"},
+                { "NameMatch" : "^UDS_N_\\S+", "DirRule" : "^Content/(Design/NPC|Program)/\\S*"},
+                { "NameMatch" : "^UDS_M_\\S+", "DirRule" : "^Content/(Design/Monster|Program)/\\S*"},
+                { "NameMatch" : "^UDS_B_\\S+", "DirRule" : "^Content/(Design/Boss|Program)/\\S*"},
+                { "NameMatch" : "^UDS_PET_\\S+", "DirRule" : "^Content/(Design/Pet|Program)/\\S*"},
+                { "NameMatch" : "^UDS_L_\\S+", "DirRule" : "^Content/(Design/Environment|Program)/\\S*"},
+                { "NameMatch" : "^UDS_AI_\\S+", "DirRule" : "^Content/(Design/AI|Program)/\\S*"},
+                { "NameMatch" : "^UDS_UI_\\S+", "DirRule" : "^Content/(Cooperation/UMG|Program)/\\S*"},
+                { "NameMatch" : "^UDS_RD_\\S+", "DirRule" : "^Content/(Art/Material|Program)/\\S*"},
+                { "NameMatch" : "^UDS_LB_\\S+", "DirRule" : "^Content/(Art|Design|Program)/Editor/\\S*"},
+                { "NameMatch" : "^UDS_CFG_\\S+", "DirRule" : "^Content/(Design|Program)/\\S*"},
+                { "NameMatch" : "^UDS_P_\\S+", "DirRule" : "^/Content/Program/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "UserDefinedEnum",
+            "Name" : { "Type" : "Regex", "Pattern" : "^UDE_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^UDE_P_\\S+", "DirRule" : "^Content/Program/\\S*"},
+                { "NameMatch" : "^UDE_LB_\\S+", "DirRule" : "^Content/(Art|Design|Program)/Editor/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "GroomAsset",
+            "Name" : { "Type" : "Regex", "Pattern" : "^GA_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^GA_R_\\S+", "DirRule" : "^Content/Art/Role/\\S*"},
+                { "NameMatch" : "^GA_H_\\S+", "DirRule" : "^Content/Art/Hero/\\S*"},
+                { "NameMatch" : "^GA_N_\\S+", "DirRule" : "^Content/Art/NPC/\\S*"},
+                { "NameMatch" : "^GA_M_\\S+", "DirRule" : "^Content/Art/Monster/\\S*"},
+                { "NameMatch" : "^GA_B_\\S+", "DirRule" : "^Content/Art/Boss/\\S*"},
+                { "NameMatch" : "^GA_PET_\\S+", "DirRule" : "^Content/Art/Pet/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "GroomBindingAsset",
+            "Name" : { "Type" : "Regex", "Pattern" : "^GBA_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^GBA_R_\\S+", "DirRule" : "^Content/Art/Role/\\S*"},
+                { "NameMatch" : "^GBA_H_\\S+", "DirRule" : "^Content/Art/Hero/\\S*"},
+                { "NameMatch" : "^GBA_N_\\S+", "DirRule" : "^Content/Art/NPC/\\S*"},
+                { "NameMatch" : "^GBA_M_\\S+", "DirRule" : "^Content/Art/Monster/\\S*"},
+                { "NameMatch" : "^GBA_B_\\S+", "DirRule" : "^Content/Art/Boss/\\S*"},
+                { "NameMatch" : "^GBA_PET_\\S+", "DirRule" : "^Content/Art/Pet/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "GeometryCache",
+            "Name" : { "Type" : "Regex", "Pattern" : "^GCC_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^GCC_R_\\S+", "DirRule" : "^Content/Art/Role/\\S*"},
+                { "NameMatch" : "^GCC_H_\\S+", "DirRule" : "^Content/Art/Hero/\\S*"},
+                { "NameMatch" : "^GCC_N_\\S+", "DirRule" : "^Content/Art/NPC/\\S*"},
+                { "NameMatch" : "^GCC_M_\\S+", "DirRule" : "^Content/Art/Monster/\\S*"},
+                { "NameMatch" : "^GCC_B_\\S+", "DirRule" : "^Content/Art/Boss/\\S*"},
+                { "NameMatch" : "^GCC_PET_\\S+", "DirRule" : "^Content/Art/Pet/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "GeometryCollection",
+            "Name" : { "Type" : "Regex", "Pattern" : "^GC_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^GC_L_\\S+", "DirRule" : "^Content/(Art|Design|Cooperation)/Environment/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "HoudiniAsset",
+            "Name" : { "Type" : "Regex", "Pattern" : "^HA_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^HA_E_\\S+", "DirRule" : "^Content/Program/Editor/\\S*"},
+                { "NameMatch" : "^HA_R_\\S+", "DirRule" : "^Content/Program/Editor/\\S*"},
+                { "NameMatch" : "^HA_H_\\S+", "DirRule" : "^Content/Program/Editor/\\S*"},
+                { "NameMatch" : "^HA_N_\\S+", "DirRule" : "^Content/Program/Editor/\\S*"},
+                { "NameMatch" : "^HA_M_\\S+", "DirRule" : "^Content/Program/Editor/\\S*"},
+                { "NameMatch" : "^HA_B_\\S+", "DirRule" : "^Content/Program/Editor/\\S*"},
+                { "NameMatch" : "^HA_PET_\\S+", "DirRule" : "^Content/Program/Editor/\\S*"},
+                { "NameMatch" : "^HA_L_\\S+", "DirRule" : "^Content/Program/Editor/\\S*"},
+                { "NameMatch" : "^HA_AI_\\S+", "DirRule" : "^Content/Program/Editor/\\S*"},
+                { "NameMatch" : "^HA_UI_\\S+", "DirRule" : "^Content/Program/Editor/\\S*"},
+                { "NameMatch" : "^HA_RD_\\S+", "DirRule" : "^Content/Program/Editor/\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "MapBuildDataRegistry",
+            "Name" : { "Type" : "Regex", "Pattern" : "^(ML|SL)_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^ML_L_\\S+", "DirRule" : "^Content/(Art|Design|Cooperation)/Map/\\S*"},
+                { "NameMatch" : "^SL_L_\\S+", "DirRule" : "^Content/(Art|Design|Cooperation)/Map/\\S*"}
+
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "TouchInterface",
+            "Name" : { "Type" : "Regex", "Pattern" : "^TI_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^TI_\\S+", "DirRule" : "^Content/(Art|Design|Cooperation|Program)/\\S*"}
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "DataLayerAsset",
+            "Name" : { "Type" : "Regex", "Pattern" : "^DL_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^DL_\\S+", "DirRule" : "^Content/(Art|Design|Cooperation)/Map/\\S*"}
+            ],
+            "ClassificationSpecification":[
+            ]            
+        },
+        {
+            "Type" : "UIParticleAsset",
+            "Name" : { "Type" : "Regex", "Pattern" : "^UIP_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^UIP_UI_\\S+", "DirRule" : "^Content/Art/UI/ParticleSystem\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "UIParticleEmitterAsset",
+            "Name" : { "Type" : "Regex", "Pattern" : "^UIPE_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^UIPE_UI_\\S+", "DirRule" : "^Content/Art/UI/ParticleSystem\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "SkeletalMeshLODSettings",
+            "Name" : { "Type" : "Regex", "Pattern" : "^SKMLOD_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^SKMLOD_\\S+" }
+            ]
+        },
+        {
+            "Type" : "MediaPlayer",
+            "Name" : { "Type" : "Regex", "Pattern" : "^MEP_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^MEP_UI_\\S+", "DirRule" : "^Content/Art/Media/MediaPlayer\\S*"},
+                { "NameMatch" : "^MEP_L_\\S+", "DirRule" : "^Content/Art/Media/MediaPlayer\\S*"},
+                { "NameMatch" : "^MEP_P_\\S+", "DirRule" : "^Content/Art/Media/MediaPlayer\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "FileMediaSource",
+            "Name" : { "Type" : "Regex", "Pattern" : "^FMS_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^FMS_UI_\\S+", "DirRule" : "^Content/Art/Media/MediaResource\\S*", "VideoNameRule" : "^V_UI_\\S+", "VideoPathRule" : "^Content/Art/Media/Video\\S*"},
+                { "NameMatch" : "^FMS_L_\\S+", "DirRule" : "^Content/Art/Media/MediaResource\\S*", "VideoNameRule" : "^V_L_\\S+", "VideoPathRule" : "^Content/Art/Media/Video\\S*"},
+                { "NameMatch" : "^FMS_P_\\S+", "DirRule" : "^Content/Art/Media/MediaResource\\S*", "VideoNameRule" : "^V_P_\\S+", "VideoPathRule" : "^Content/Art/Media/Video\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        },
+        {
+            "Type" : "MediaTexture",
+            "Name" : { "Type" : "Regex", "Pattern" : "^MT_[0-9-a-zA-Z]+\\w*$" },
+            "Specification" : [
+                { "NameMatch" : "^MT_UI_\\S+", "DirRule" : "^Content/Art/Media/MediaTexture\\S*"},
+                { "NameMatch" : "^MT_L_\\S+", "DirRule" : "^Content/Art/Media/MediaTexture\\S*"},
+                { "NameMatch" : "^MT_P_\\S+", "DirRule" : "^Content/Art/Media/MediaTexture\\S*"}
+               
+            ],
+            "ClassificationSpecification":[
+            ]
+        }
+    ],
+    "Directories":[
+    ]
+}
